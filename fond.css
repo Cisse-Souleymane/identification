@@ -1,0 +1,26 @@
+/* Appliquer une image de fond à tout le formulaire */
+body {
+  background-image: url('ENPETT.png'); /* Remplacez par l'URL de votre image */
+  background-size: cover; /* L'image couvre tout l'écran */
+  background-repeat: no-repeat; /* Pas de répétition de l'image */
+  background-position: center; /* L'image est centrée */
+  background-attachment: fixed; /* L'image reste fixe lorsqu'on fait défiler la page */
+}
+
+/* Ajouter une légère transparence au formulaire pour améliorer la lisibilité */
+form {
+  background-color: rgba(255, 255, 255, 0.8); /* Fond blanc avec 80% d'opacité */
+  padding: 20px; /* Espacement interne pour que le contenu du formulaire ne touche pas les bords */
+  border-radius: 10px; /* Bords arrondis pour un effet plus esthétique */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Ombre légère autour du formulaire */
+}
+
+/* Styles pour les champs du formulaire */
+input, textarea, select {
+  background-color: rgba(255, 255, 255, 0.9); /* Légère transparence des champs */
+  border: 1px solid #ccc; /* Bordures des champs */
+  border-radius: 5px; /* Bords arrondis des champs */
+  padding: 10px; /* Espacement interne des champs */
+  width: 100%; /* Champs prenant toute la largeur disponible */
+  margin-bottom: 15px; /* Espacement entre les champs */
+}
