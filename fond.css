@@ -1,6 +1,6 @@
 /* Appliquer une image de fond à tout le formulaire */
 body {
-  background-image: url('ENPETT.png'); /* Remplacez par l'URL de votre image */
+  background-image: url('https://github.com/Cisse-Souleymane/identification/blob/main/ENPETP.png'); /* Remplacez par l'URL de votre image */
   background-size: cover; /* L'image couvre tout l'écran */
   background-repeat: no-repeat; /* Pas de répétition de l'image */
   background-position: center; /* L'image est centrée */
